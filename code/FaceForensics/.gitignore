@@ -141,7 +141,7 @@ cython_debug/
 #videos
 
 #result videos
-dataset/
+# dataset/
 classification/results/Corrupt
 classification/results/external
 classification/results/manipulated_sequences
