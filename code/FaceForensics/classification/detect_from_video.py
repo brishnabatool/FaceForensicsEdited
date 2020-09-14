@@ -117,7 +117,7 @@ def test_full_image_network(video_path, model_path, output_path,
     :return:
     """
 
-    cuda = False    # BRISHNA : attempting to force non-cuda (enabled by default somehow)
+    cuda = True    # BRISHNA : attempting to force non-cuda (enabled by default somehow)
     print('Starting: {}'.format(video_path))
 
     # Read and write
